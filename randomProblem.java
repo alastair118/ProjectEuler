@@ -100,7 +100,7 @@ public class randomProblem {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        String url = "https://projecteuler.net/problem="+random;
+        String url = "https://projecteuler.net/problem="+random+"#"+lang;
 
         if(Desktop.isDesktopSupported()){
             Desktop desktop = Desktop.getDesktop();
